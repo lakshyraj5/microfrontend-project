@@ -8,7 +8,7 @@ export default defineConfig({
     federation({
       name: 'app',
       remotes: {
-        remoteApp: 'http://localhost:5001/assets/remoteEntry.js',
+        remoteApp: 'https://remote-three.vercel.app/assets/remoteEntry.js',
       },
       shared: ['react', 'react-dom'],
     }),
