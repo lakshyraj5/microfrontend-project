@@ -9,7 +9,7 @@ export const Button = () => {
             <button
                 id="click-btn"
                 className="shared-btn"
-                onClick={() => setState((s1)=> s1 + 1)}>
+                onClick={() => setState((s1)=> s1 + 2)}>
                 hello lakshy: {state}
             </button>
         </div>
